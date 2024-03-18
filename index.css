@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#home-score, #guest-score{
+    display: flex;
+    justify-content: center;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #080001;
+    padding: 10px;
+    font-size: 50px;
+    margin: 0px 0px 30px 0px;
+}
+
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #1B244A;
+    color: #9AABD8
+}
+
+.point{
+    border: solid #9AABD8 1px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;  
+}
+
+#reset {
+    color: gold;
+    background: green;
+    display: flex;
+    margin: 30px auto;
+}
